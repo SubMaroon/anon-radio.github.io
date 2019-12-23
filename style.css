@@ -72,7 +72,7 @@ h3 {
     height: 750px;
     margin: auto;
     overflow: hidden;
-    background-image: url("D0pQlq1Ac1g.jpg");
+    background-color:black;
     background-repeat: repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ h3 {
 .cover {
     float: left;
     width: 100%;
-    height: 100%;
+    height: 66%;
 }
 .cover img {
     display: block;
