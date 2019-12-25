@@ -32,7 +32,9 @@
             </div>
         </div>
         <div class="current-song marquee"
-             <div id="stream_song"></div>
+             
+        id="radioheart-player-current-song"
+            <div id="stream_song"></div>
             
         >
         </div>
@@ -81,7 +83,7 @@
                                             nac = false;
                                             $('#stream_name').text('Название станции: '+nm["name"]);
                                             $('#stream_description').text('Описание станции: '+nm["description"]);
-                                            $('#stream_song').text('Сейчас в эфире: '+nm["title"]);
+                                            $('#stream_song').text(nm["title"]);
                                             $('#stream_listenters').text('Слушателей: '+nm["listeners"]);
                                         }
                                     }
